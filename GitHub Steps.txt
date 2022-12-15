@@ -1,0 +1,15 @@
+Step 1: git init(Initiliaze the github)
+step 2: setup our Basic configure with user dot name or user dot email id (Inorder to commit in GitHub repository we must configure)
+        git config --global user.name "Susmitha"
+        git config --global user.email "susmithakamu1@gmail.com"
+step 3: git status (See status of file such as no commits means files are being untraked)
+step 4: git add filename(README.md) (File will get tracked status shows like changes to be committed)
+        README file needs to be https://github.com/susmitha-shinney/gittutorials.gitcommitted
+step 5: git commit -m "This is my first commit" (As soon as we commit file sent it to the staging environment)
+step 6: git branch (Whenever we create repository default branch is "Main" branch)
+step 7: git branch -M main (Rename branch from master to main)
+step 8: git remote add origin https://github.com/susmitha-shinney/gittutorials.git (Take from repository)
+step 9: git status (To confirm files are being tracked)
+step 10: git remote -v (To know the origins such fetch(from where it is fetching)and push(To which path it is placing)
+step 11: git push origin main (Pushing the files from staging environment to github "Main" Repository)
+step 12: git restore filename(README.md) (It helps to store the changes in the file which is present in Staging environment)
